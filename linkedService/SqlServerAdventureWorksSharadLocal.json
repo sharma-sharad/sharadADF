@@ -1,0 +1,16 @@
+{
+	"name": "SqlServerAdventureWorksSharadLocal",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=SHARAD\\SQLEXPRESS;initial catalog=AdventureWorks2022;user id=sharadlocal",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhNDcyOTgwYy0xYTEyLTQ5MzMtOWQyNS0yODQ5NmFkODRiNTUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime2sharad",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
